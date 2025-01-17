@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <title>element</title>
+</head>
+
+<body>
+    <!-- div는 구역을 나눌 때 사용 -->
+    <div style="display: flex;">
+        <div>
+            <div>
+                <!-- h1 ~ h6 h1이 가장 큼-->
+                <!-- 제목이나 강조등에 사용 -->
+                <h1>H1</h1>
+
+                <!-- 문단 -->
+                <!-- br은 줄을 바꿀 때 사용 -->
+                <p>
+                    hello<br>
+                    html
+                </p>
+            </div>
+            <div>
+                <input type="text" style="width: 500px; height: 100px; font-size: 50px;">
+            </div>
+            <div>
+                <button style="width: 250px; height: 100px;">버튼</button>
+                <button style="width: 250px; height: 100px;">버튼</button>
+            </div>
+
+            <!-- 하이퍼링크 -->
+            <a href="https://www.google.com" style="font-size: 30px;">구글로 이동</a>
+        </div>
+        <div>
+            <h1>두번째 블록</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="html">
+            
+            <!-- 리스트 -->
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <!-- 번호가 붙는 리스트 -->
+            <ol>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ol>
+
+
+            <table style="width: 250px; height: 125px;">
+                <caption>table name</caption>
+                <tr>
+                    <td>이름</td>
+                    <td>나이</td>
+                    <td>지역</td>
+                </tr>
+                <tr>
+                    <td>철수</td>
+                    <td>12</td>
+                    <td>서울</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>영희</td>
+                    <td>14</td>
+                    <td>부산</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>세번째 문단</h1>
+            
+            <form>
+                <input type="text" style="font-size: 30px;">
+                <input type="email" style="font-size: 30px;">
+                <input type="password" style="font-size: 30px;">
+                <input type="date" style="font-size: 30px;"><br>
+                <input type="checkbox" style="font-size: 30px;"><br>
+
+                <select>
+                    <option value="1">alpha</option>
+                    <option value="1">bravo</option>
+                    <option value="1">charlie</option>
+                </select>
+                <div>
+                    <!-- submit를 사용하면 form의 입력값이 제출됨 -->
+                    <button type="submit" style="font-size: 30px;">완료</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
